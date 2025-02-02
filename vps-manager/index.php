@@ -3,8 +3,8 @@ session_start();
 require_once 'vendor/autoload.php'; // Install with: composer require team-reflex/oauth2-discord
 
 // Configuration (Update these!)
-define('DISCORD_CLIENT_ID', '1334950570229891193');
-define('DISCORD_CLIENT_SECRET', 'u3WxR0exjlSU1oSDECFA3hU0wDRe7vFc');
+define('DISCORD_CLIENT_ID', '');
+define('DISCORD_CLIENT_SECRET', '');
 define('DISCORD_REDIRECT_URI', 'http://your-domain.com/callback.php');
 $dataFile = 'data.json';
 
